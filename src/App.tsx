@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import Game from "./components/Game";
 import Settings from "./components/Settings";
 
