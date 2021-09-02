@@ -1,8 +1,8 @@
 import React from "react";
 import { connect } from "react-redux";
 import { Dispatch } from "redux";
-import { setFahrenheit, setSelsius } from "../../store/Units.js";
-import { RootState } from "../../store/store.js";
+import { setFahrenheit, setSelsius } from "../../store/Units";
+import { RootState } from "../../store/store";
 
 type UnitsProps = {
   dispatch: Dispatch;

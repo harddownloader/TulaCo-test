@@ -13,7 +13,8 @@ export const historySlice = createSlice({
   initialState,
   reducers: {
     addResult: (state, action: PayloadAction<object>) => {
-      state.results = [...state.results, action.payload];
+      console.log("action", action);
+      state.results = [...state.results, [...action.payload]];
     },
   },
 });
